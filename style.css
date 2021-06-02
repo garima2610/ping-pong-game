@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #0f010b;
+    background-image: url("shattered.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+#container {
+    position: relative;
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(192, 121, 121);
+    position: fixed;
+    top: 40px;
+    left: 52.5%;
+    border-radius: 50%;
+}
+
+#rod1, #rod2 {
+    width: 200px;
+    height: 40px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rod1 {
+    background-color: rgb(94, 94, 233);
+    top: 0px;    
+}
+
+#rod2 {
+    background-color: rgb(158, 85, 226);
+    bottom: 0px;
+}
